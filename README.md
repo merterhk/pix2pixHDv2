@@ -85,10 +85,6 @@ class IDs. For a binary dental mask setup, use:
 --label_nc 2 --no_instance
 ```
 
-If you want to train an RGB-to-RGB translation task instead of a semantic-mask
-task, use the original pix2pixHD convention with `--label_nc 0` and A/B-style
-input folders.
-
 ## Training
 
 Example training command:
@@ -154,7 +150,6 @@ results/<experiment_name>/<phase>_<epoch>/index.html
   logs, and HTML result export follow NVIDIA/pix2pixHD.
 - Use `--no_instance` when your dataset does not provide instance maps.
 - Use `--label_nc N` for semantic masks with `N` classes.
-- Use `--label_nc 0` for image-to-image translation with RGB inputs.
 - Keep `--name`, `--netG`, and `--g1_residual` consistent between training and
   testing.
 
