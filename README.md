@@ -36,6 +36,8 @@ its corresponding panoramic dental image.
 | --- | --- |
 | ![Input mask](imgs/examples/example_mask.jpg) | ![Reference image](imgs/examples/example_image.png) |
 
+For the synthetic images used in expert evaluation, [click here](EXPERT_EVALUATION_IMAGES.md).
+
 ## Installation
 
 Install PyTorch for your CUDA/runtime environment from the official PyTorch
